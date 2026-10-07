@@ -1,0 +1,18 @@
+width = 10
+name = input(f"{'Nama: ':>{width}}")
+nim = input("NIM: ")
+paralel_class = input("Kelas Paralel: ")
+birth_place_date = input("Tempat/Tanggal Lahir: ")
+address = input("Alamt: ")
+hobby = input("Hobby: ")
+phone_number = input("No. HP: ")
+
+print(f"\n")
+print(f"Nama: {name}")
+print(f"Nama: {name:>{width}}")
+print(f"NIM: {nim}")
+print(f"Paralel Kelas: {paralel_class}")
+print(f"Tempat/Tanggal Lahir: {birth_place_date}")
+print(f"Alamat: {address}")
+print(f"Hobby: {hobby}")
+print(f"No. HP: {phone_number}")
